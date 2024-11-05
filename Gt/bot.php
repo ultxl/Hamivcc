@@ -1,7 +1,7 @@
 <?php
 
 ////////////////=============[@shadowdemon_xd CHK BOT]=============////////////////
-$botToken = "#"; // Enter ur bot token
+$botToken = "7895397169:AAFFNwGhntAl9yMaATZbYH6U5yUnQZVjbtw"; // Enter ur bot token
 $website = "https://api.telegram.org/bot".$botToken;
 error_reporting(0);
 $update = file_get_contents('php://input');
@@ -22,7 +22,7 @@ $groups = explode("\n", $group);
 if($userId == '1991559687') {
 $usernam = ''.shadowdemon_xd.'%0A [Owner]';
 }
-elseif($userId == '1386134927') {
+elseif($userId == '7447317982') {
 $usernam = ''.mtchex.'%0A [Owner]';
 }
 else {
@@ -46,7 +46,7 @@ function random_strings($length_of_string)
     return substr(str_shuffle($str_result),  
                        0, $length_of_string); 
 }
-$mail = 'shadowdemo2w'.random_strings(6).'';
+$mail = 'ult_xl'.random_strings(6).'';
 //////////=========[Start Command]=========//////////
 
 
